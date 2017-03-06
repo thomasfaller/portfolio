@@ -1,0 +1,42 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header {
+    height: 100px;
+    background-color: lightblue;
+}
+
+/*SKILLS*/
+
+.skills {
+    height: 200px;
+    background-color: lightpink;
+}
+
+/*WORK*/
+
+.my-work {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+/*CONTACT*/
+
+.contact {
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 100px;
+    background-color: lightcoral;
+}
