@@ -67,11 +67,11 @@ a {
   width: 500px;
 }
 
-
 /*SKILLS*/
 
 #skills {
     height: 600px;
+    width: 100%;
     background-color: lightpink;
 }
 
@@ -79,6 +79,7 @@ a {
 
 #work {
     height: 600px;
+    width: 100%;
     background-color: lightgreen;
 }
 
@@ -86,6 +87,7 @@ a {
 
 #contact {
     height: 600px;
+    width: 100%;
     background-color: lightgoldenrodyellow;
 }
 
@@ -93,6 +95,7 @@ a {
 
 footer {
     height: 100px;
+    width: 100%;
     background-color: lightcoral;
 }
 
@@ -106,8 +109,6 @@ footer {
 .thumb-link {
   width: 100px;
 }
-
-
 
 /*MEDIA QUERIES*/
 
