@@ -107,6 +107,21 @@ footer {
 @media only screen
 and (max-device-width : 667px)
 and (orientation : portrait) {
+  header {height: auto;}
+  header p {display: none;}
+  header nav ul {flex-direction: column;}
+  li:nth-of-type(3) {order: -1;}     /*Pushes the thumbnail to the top of the nav*/
+  #about-wrapper {
+    font-size: 1rem;
+    padding-top: 100px;               /*     adjusts the display of the wrapper     */
+    width: 100%;}}
+
+/*iPhone in Landscape ONLY*/
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
   header {
     height: auto;
   }
