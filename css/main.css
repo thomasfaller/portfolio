@@ -98,11 +98,12 @@ footer {
 
 #social-links-wrapper ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
-.thumb-link:img {
+.thumb-link {
   width: 100px;
 }
 
