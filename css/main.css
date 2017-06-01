@@ -96,7 +96,15 @@ footer {
     background-color: lightcoral;
 }
 
+#social-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.thumb-link:img {
+  width: 100%;
+}
 
 
 
