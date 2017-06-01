@@ -1,0 +1,123 @@
+/* General Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  }
+
+body {
+  height: 100vh;
+}
+
+
+/*HEADER*/
+
+header {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: lightblue;
+  position: fixed;
+  top: 0px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+header {
+  display:
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -webkit-padding-start: 0px;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*ABOUT*/
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: lightgoldenrodyellow;
+}
+
+#about-wrapper {
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+/*SKILLS*/
+
+#skills {
+    height: 600px;
+    background-color: lightpink;
+}
+
+/*WORK*/
+
+#work {
+    height: 600px;
+    background-color: lightgreen;
+}
+
+/*CONTACT*/
+
+#contact {
+    height: 600px;
+    background-color: lightgoldenrodyellow;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 100px;
+    background-color: lightcoral;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 500px) {
+    header {
+      height: auto;
+    }
+
+    header p {
+      display: none;
+    }
+    header nav ul {
+      flex-direction: column;
+    }
+    li:nth-of-type(3) {
+      order: -1;
+    }
+    #about-wrapper {
+      padding-top: 100px;
+      width: 100%;
+    }
+}
