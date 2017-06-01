@@ -105,7 +105,6 @@ footer {
 /*iPhone in portrait ONLY*/
 
 @media only screen
-and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
   header {
@@ -121,6 +120,7 @@ and (orientation : portrait) {
     order: -1;
   }
   #about-wrapper {
+    font-size: 1rem;
     padding-top: 100px;
     width: 100%;
   }
