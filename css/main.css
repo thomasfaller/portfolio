@@ -96,14 +96,14 @@ footer {
     background-color: lightcoral;
 }
 
-#social-links-wrapper {
+#social-links-wrapper ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .thumb-link:img {
-  width: 100%;
+  width: 100px;
 }
 
 
