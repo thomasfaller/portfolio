@@ -102,22 +102,25 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 500px) {
-    header {
-      height: auto;
-    }
+/*iPhone in portrait & landscape*/
 
-    header p {
-      display: none;
-    }
-    header nav ul {
-      flex-direction: column;
-    }
-    li:nth-of-type(3) {
-      order: -1;
-    }
-    #about-wrapper {
-      padding-top: 100px;
-      width: 100%;
-    }
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  header {
+    height: auto;
+  }
+  header p {
+    display: none;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  li:nth-of-type(3) {
+    order: -1;
+  }
+  #about-wrapper {
+    padding-top: 100px;
+    width: 100%;
+  }
 }
